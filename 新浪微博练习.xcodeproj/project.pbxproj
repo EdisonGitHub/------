@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180397DF19179EDE00108640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180397DE19179EDE00108640 /* Foundation.framework */; };
+		180397E119179EDE00108640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180397E019179EDE00108640 /* CoreGraphics.framework */; };
+		180397E319179EDE00108640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180397E219179EDE00108640 /* UIKit.framework */; };
+		180397E919179EDE00108640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180397E719179EDE00108640 /* InfoPlist.strings */; };
+		180397EB19179EDE00108640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180397EA19179EDE00108640 /* main.m */; };
+		180397EF19179EDE00108640 /* EdisonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180397EE19179EDE00108640 /* EdisonAppDelegate.m */; };
+		180397F119179EDE00108640 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180397F019179EDE00108640 /* Images.xcassets */; };
+		180397F819179EDE00108640 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180397F719179EDE00108640 /* XCTest.framework */; };
+		180397F919179EDE00108640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180397DE19179EDE00108640 /* Foundation.framework */; };
+		180397FA19179EDE00108640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180397E219179EDE00108640 /* UIKit.framework */; };
+		1803980219179EDE00108640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1803980019179EDE00108640 /* InfoPlist.strings */; };
+		1803980419179EDE00108640 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803980319179EDE00108640 /* ______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180397FB19179EDE00108640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180397D319179EDE00108640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180397DA19179EDE00108640;
+			remoteInfo = "新浪微博练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180397DB19179EDE00108640 /* 新浪微博练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180397DE19179EDE00108640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180397E019179EDE00108640 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180397E219179EDE00108640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180397E619179EDE00108640 /* 新浪微博练习-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "新浪微博练习-Info.plist"; sourceTree = "<group>"; };
+		180397E819179EDE00108640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180397EA19179EDE00108640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180397EC19179EDE00108640 /* 新浪微博练习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "新浪微博练习-Prefix.pch"; sourceTree = "<group>"; };
+		180397ED19179EDE00108640 /* EdisonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdisonAppDelegate.h; sourceTree = "<group>"; };
+		180397EE19179EDE00108640 /* EdisonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdisonAppDelegate.m; sourceTree = "<group>"; };
+		180397F019179EDE00108640 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		180397F619179EDE00108640 /* 新浪微博练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180397F719179EDE00108640 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		180397FF19179EDE00108640 /* 新浪微博练习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "新浪微博练习Tests-Info.plist"; sourceTree = "<group>"; };
+		1803980119179EDE00108640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1803980319179EDE00108640 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180397D819179EDE00108640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180397E119179EDE00108640 /* CoreGraphics.framework in Frameworks */,
+				180397E319179EDE00108640 /* UIKit.framework in Frameworks */,
+				180397DF19179EDE00108640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180397F319179EDE00108640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180397F819179EDE00108640 /* XCTest.framework in Frameworks */,
+				180397FA19179EDE00108640 /* UIKit.framework in Frameworks */,
+				180397F919179EDE00108640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180397D219179EDE00108640 = {
+			isa = PBXGroup;
+			children = (
+				180397E419179EDE00108640 /* 新浪微博练习 */,
+				180397FD19179EDE00108640 /* 新浪微博练习Tests */,
+				180397DD19179EDE00108640 /* Frameworks */,
+				180397DC19179EDE00108640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180397DC19179EDE00108640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180397DB19179EDE00108640 /* 新浪微博练习.app */,
+				180397F619179EDE00108640 /* 新浪微博练习Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180397DD19179EDE00108640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180397DE19179EDE00108640 /* Foundation.framework */,
+				180397E019179EDE00108640 /* CoreGraphics.framework */,
+				180397E219179EDE00108640 /* UIKit.framework */,
+				180397F719179EDE00108640 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180397E419179EDE00108640 /* 新浪微博练习 */ = {
+			isa = PBXGroup;
+			children = (
+				180397ED19179EDE00108640 /* EdisonAppDelegate.h */,
+				180397EE19179EDE00108640 /* EdisonAppDelegate.m */,
+				180397F019179EDE00108640 /* Images.xcassets */,
+				180397E519179EDE00108640 /* Supporting Files */,
+			);
+			path = "新浪微博练习";
+			sourceTree = "<group>";
+		};
+		180397E519179EDE00108640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180397E619179EDE00108640 /* 新浪微博练习-Info.plist */,
+				180397E719179EDE00108640 /* InfoPlist.strings */,
+				180397EA19179EDE00108640 /* main.m */,
+				180397EC19179EDE00108640 /* 新浪微博练习-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180397FD19179EDE00108640 /* 新浪微博练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1803980319179EDE00108640 /* ______Tests.m */,
+				180397FE19179EDE00108640 /* Supporting Files */,
+			);
+			path = "新浪微博练习Tests";
+			sourceTree = "<group>";
+		};
+		180397FE19179EDE00108640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180397FF19179EDE00108640 /* 新浪微博练习Tests-Info.plist */,
+				1803980019179EDE00108640 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180397DA19179EDE00108640 /* 新浪微博练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1803980719179EDE00108640 /* Build configuration list for PBXNativeTarget "新浪微博练习" */;
+			buildPhases = (
+				180397D719179EDE00108640 /* Sources */,
+				180397D819179EDE00108640 /* Frameworks */,
+				180397D919179EDE00108640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新浪微博练习";
+			productName = "新浪微博练习";
+			productReference = 180397DB19179EDE00108640 /* 新浪微博练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180397F519179EDE00108640 /* 新浪微博练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1803980A19179EDE00108640 /* Build configuration list for PBXNativeTarget "新浪微博练习Tests" */;
+			buildPhases = (
+				180397F219179EDE00108640 /* Sources */,
+				180397F319179EDE00108640 /* Frameworks */,
+				180397F419179EDE00108640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180397FC19179EDE00108640 /* PBXTargetDependency */,
+			);
+			name = "新浪微博练习Tests";
+			productName = "新浪微博练习Tests";
+			productReference = 180397F619179EDE00108640 /* 新浪微博练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180397D319179EDE00108640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Edison;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Edison;
+				TargetAttributes = {
+					180397F519179EDE00108640 = {
+						TestTargetID = 180397DA19179EDE00108640;
+					};
+				};
+			};
+			buildConfigurationList = 180397D619179EDE00108640 /* Build configuration list for PBXProject "新浪微博练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180397D219179EDE00108640;
+			productRefGroup = 180397DC19179EDE00108640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180397DA19179EDE00108640 /* 新浪微博练习 */,
+				180397F519179EDE00108640 /* 新浪微博练习Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180397D919179EDE00108640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180397E919179EDE00108640 /* InfoPlist.strings in Resources */,
+				180397F119179EDE00108640 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180397F419179EDE00108640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1803980219179EDE00108640 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180397D719179EDE00108640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180397EF19179EDE00108640 /* EdisonAppDelegate.m in Sources */,
+				180397EB19179EDE00108640 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180397F219179EDE00108640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1803980419179EDE00108640 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180397FC19179EDE00108640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180397DA19179EDE00108640 /* 新浪微博练习 */;
+			targetProxy = 180397FB19179EDE00108640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180397E719179EDE00108640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180397E819179EDE00108640 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1803980019179EDE00108640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1803980119179EDE00108640 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1803980519179EDE00108640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1803980619179EDE00108640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1803980819179EDE00108640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博练习/新浪微博练习-Prefix.pch";
+				INFOPLIST_FILE = "新浪微博练习/新浪微博练习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1803980919179EDE00108640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博练习/新浪微博练习-Prefix.pch";
+				INFOPLIST_FILE = "新浪微博练习/新浪微博练习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1803980B19179EDE00108640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/新浪微博练习.app/新浪微博练习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博练习/新浪微博练习-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "新浪微博练习Tests/新浪微博练习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1803980C19179EDE00108640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/新浪微博练习.app/新浪微博练习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "新浪微博练习/新浪微博练习-Prefix.pch";
+				INFOPLIST_FILE = "新浪微博练习Tests/新浪微博练习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180397D619179EDE00108640 /* Build configuration list for PBXProject "新浪微博练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803980519179EDE00108640 /* Debug */,
+				1803980619179EDE00108640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1803980719179EDE00108640 /* Build configuration list for PBXNativeTarget "新浪微博练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803980819179EDE00108640 /* Debug */,
+				1803980919179EDE00108640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1803980A19179EDE00108640 /* Build configuration list for PBXNativeTarget "新浪微博练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803980B19179EDE00108640 /* Debug */,
+				1803980C19179EDE00108640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180397D319179EDE00108640 /* Project object */;
+}
