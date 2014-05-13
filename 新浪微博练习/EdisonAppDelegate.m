@@ -7,15 +7,28 @@
 //
 
 #import "EdisonAppDelegate.h"
-
+#import "EdisonTabBarViewController.h"
+#import "EdisonOauthViewController.h"
+#import "EdisonAccount.h"
+#import "EdisonWeiboTool.h"
+#import "EdisonAccountTool.h"
 @implementation EdisonAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    // 先判断有无存储账号信息
+    EdisonAccount *account = [EdisonAccountTool account];
+    
+    if (account) { // 之前登录成功
+        [EdisonWeiboTool chooseRootController];
+    }else{//没有登录成功
+        self.window.rootViewController = [[EdisonOauthViewController alloc] init];
+    }
+    
+    
     return YES;
 }
 
